@@ -3,7 +3,9 @@ import pandas as pd
 data = {
     'FirstName': ["Artem", "Syed", "falcao"],
     'LastName': ["Frenk", "Shazli", "vaz"],
-    'Year': ['Sophomore', 'Sophomore', 'unc']    
+    'Year': ['Sophomore', 'Sophomore', 'unc'],
+    'Favorite Food': ['Hamburger', 'Hot Dog', 'Pizza']
+        
 }
 df = pd.DataFrame(data)
 csv_name = "names.csv"
